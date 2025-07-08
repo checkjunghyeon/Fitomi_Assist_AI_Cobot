@@ -106,7 +106,3 @@ ros2 service call /dsr01/system/set_robot_mode dsr_msgs2/srv/SetRobotMode "robot
 ```
 ros2 run my_handy img_display
 ```
-
-## 🖼️ 시스템 아키텍처
-
-![system_diagram](docs/images/system_architecture.png)
