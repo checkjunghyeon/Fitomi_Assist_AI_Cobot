@@ -8,6 +8,7 @@
 
 ## 🎥 프로젝트 소개
 [![Video Label](http://img.youtube.com/vi/EtdsOFZ8_Z0/0.jpg)](https://youtu.be/EtdsOFZ8_Z0)
+  ➡ 영상 클릭 시, youtube 재생
 
 
 **Fitomi**(핏오미)는 협동로봇을 활용해 **개인 맞춤형 식단 추천 및 의류 추천부터 전달까지 서비스를 제공하는 AI 기반 시스템**입니다.
