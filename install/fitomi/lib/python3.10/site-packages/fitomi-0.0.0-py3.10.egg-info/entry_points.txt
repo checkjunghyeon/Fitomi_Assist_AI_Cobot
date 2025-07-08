@@ -1,8 +1,0 @@
-[console_scripts]
-cm = fitomi.context_manager:main
-dummy_flask = fitomi.dummy_flask:main
-img_display = fitomi.object_detection.img_display:main
-motion = fitomi.motion:main
-object_detect = fitomi.object_detection.object_detect:main
-tm = fitomi.task_manager:main
-
