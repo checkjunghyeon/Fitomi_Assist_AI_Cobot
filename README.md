@@ -6,6 +6,10 @@
 
 ---
 
+## 🎥 데모 영상
+[![Video Label](http://img.youtube.com/vi/EtdsOFZ8_Z0/0.jpg)](https://youtu.be/EtdsOFZ8_Z0)
+
+
 **Fitomi**(핏오미)는 협동로봇을 활용해 **개인 맞춤형 식단 추천 및 의류 추천부터 전달까지 서비스를 제공하는 AI 기반 시스템**입니다.
 
 - **Doosan M0609 협동로봇**, **Realsense 카메라**, **OBB 기반 YOLO 객체 탐지**, **Flask 웹 서버**, **ROS2 Humble** 기반
@@ -105,7 +109,3 @@ ros2 run my_handy img_display
 ## 🖼️ 시스템 아키텍처
 
 ![system_diagram](docs/images/system_architecture.png)
-
-## 🎥 데모 영상
-
-![demo](docs/images/demo_gif.gif)
