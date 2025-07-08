@@ -1,10 +1,10 @@
 # Fitomi_Assist_AI_Cobot
 
-### ROKEY 3기 c-1조 프로젝트
+### ROKEY 3기 AI 기반 협동 로봇 작업 어시스트 구현 프로젝트
 - 프로젝트 기간: 2025.06.09 - 2025.06.20 (12일)
 - 참여인원: 4명
 
----
+<br>
 
 ## 🎥 프로젝트 소개
 [![Video Label](http://img.youtube.com/vi/EtdsOFZ8_Z0/0.jpg)](https://youtu.be/EtdsOFZ8_Z0)
