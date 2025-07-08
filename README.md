@@ -21,32 +21,57 @@
 
 ## 🚀 전체 실행 순서
 
+📦 파일 다운로드
+```
+mkdir ~/Fitomi_Assist_AI_Cobot/src/
+cd ~/Fitomi_Assist_AI_Cobot/src/
+
+git clone https://github.com/checkjunghyeon/Fitomi_Assist_AI_Cobot.git
+git clone –b humble https://github.com/ROKEY-SPARK/DoosanBootcamp3rd.git # 두산 로봇 ROS2 패키지 Git 주소
+
+colcon build --symlink-install
+```
+
+<br>
+
 ✅ **(1) Flask 서버 실행**
 
 ```
 cd ~/Fitomi_Assist_AI_Cobot/src/fitomi_flask/
-source ~/choi_ws/install/setup.bash
+source ~/Fitomi_Assist_AI_Cobot/install/setup.bash
 python3 fitomi_flask.py
 ```
+
 <br>
 
 ✅ **(2) Doosan 로봇 Bringup**
 ```
-cd ~/DoosanBootcamp3rd
+cd ~/Fitomi_Assist_AI_Cobot/src/DoosanBootcamp3rd/
 export PYTHONPATH=$PYTHONPATH:~/ros2_ws/install/dsr_common2/lib/dsr_common2/imp
 source install/setup.bash
+```
 
+#### 🔘 아래 명령어 중 환경에 맞춰 선택(실로봇 vs 시뮬레이션)
+
+**실로봇 버전**
+```
 ros2 launch dsr_bringup2 dsr_bringup2_rviz.launch.py \
   mode:=real host:=192.168.1.100 port:=12345 model:=m0609
+```
+
+**시뮬레이션 버전**
+```
+ros2 launch dsr_bringup2 dsr_bringup2_moveit.launch.py \
+  mode:=virtual host:=127.0.0.1 port:=12345 model:=m0609
 ```
 <br>
 
 ✅ **(3) 시스템 런치 실행**
 ```
-cd ~/Fitomi_Assist_AI_Cobot
+cd ~/Fitomi_Assist_AI_Cobot/
 source install/setup.bash
 
-ros2 launch my_handy my_handy_system.launch.py
+ros2 launch fitomi fitomi_system.launch.py
 ```
 아래 노드 자동 실행:
   * Flask 서버 (웹 UI)
