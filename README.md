@@ -23,10 +23,11 @@
 
 📦 파일 다운로드
 ```
-mkdir ~/Fitomi_Assist_AI_Cobot/src/
-cd ~/Fitomi_Assist_AI_Cobot/src/
-
+mkdir ~/Fitomi_Assist_AI_Cobot/
+cd ~/Fitomi_Assist_AI_Cobot/
 git clone https://github.com/checkjunghyeon/Fitomi_Assist_AI_Cobot.git
+
+cd ~/Fitomi_Assist_AI_Cobot/src
 git clone –b humble https://github.com/ROKEY-SPARK/DoosanBootcamp3rd.git # 두산 로봇 ROS2 패키지 Git 주소
 
 colcon build --symlink-install
