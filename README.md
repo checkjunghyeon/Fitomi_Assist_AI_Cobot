@@ -6,7 +6,7 @@
 
 ---
 
-## 🎥 데모 영상
+## 🎥 프로젝트 소개
 [![Video Label](http://img.youtube.com/vi/EtdsOFZ8_Z0/0.jpg)](https://youtu.be/EtdsOFZ8_Z0)
 
 
