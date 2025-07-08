@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-315426a18f7fdfb31548.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "dsr_msgs2__py",
+					"jsonFile" : "directory-dsr_msgs2__py-6bdc7702fa6fbe9a0bdc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/choi/Fitomi_Assist_AI_Cobot/build/dsr_msgs2/dsr_msgs2__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "dsr_msgs2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_dsr_msgs2_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_dsr_msgs2_egg-dba11e196fb5afeb4d39.json",
+					"name" : "ament_cmake_python_build_dsr_msgs2_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_dsr_msgs2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_dsr_msgs2-e2a235c2c5f348652268.json",
+					"name" : "ament_cmake_python_copy_dsr_msgs2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dsr_msgs2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dsr_msgs2-0fc4b18e5f29e7fd90f7.json",
+					"name" : "dsr_msgs2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dsr_msgs2__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dsr_msgs2__cpp-6ab913a97dbe97a831eb.json",
+					"name" : "dsr_msgs2__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "dsr_msgs2__py::@d516987e04a9e2a929ee",
+					"jsonFile" : "target-dsr_msgs2__py-6cec975f165721747681.json",
+					"name" : "dsr_msgs2__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dsr_msgs2__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dsr_msgs2__rosidl_generator_c-fa37c5ddef06cc90b574.json",
+					"name" : "dsr_msgs2__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dsr_msgs2__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dsr_msgs2__rosidl_generator_py-f60306c33077d1e45407.json",
+					"name" : "dsr_msgs2__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dsr_msgs2__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dsr_msgs2__rosidl_typesupport_c-f3b6919a5cd1cdb9fb5b.json",
+					"name" : "dsr_msgs2__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dsr_msgs2__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dsr_msgs2__rosidl_typesupport_c__pyext-a6c38944af7679822ad0.json",
+					"name" : "dsr_msgs2__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dsr_msgs2__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dsr_msgs2__rosidl_typesupport_cpp-aac2ee39ab8b647bdcb9.json",
+					"name" : "dsr_msgs2__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dsr_msgs2__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dsr_msgs2__rosidl_typesupport_fastrtps_c-cb35d6740efdc0daff87.json",
+					"name" : "dsr_msgs2__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dsr_msgs2__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dsr_msgs2__rosidl_typesupport_fastrtps_c__pyext-4b291475ab77ef91ffae.json",
+					"name" : "dsr_msgs2__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dsr_msgs2__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dsr_msgs2__rosidl_typesupport_fastrtps_cpp-c76a0b39dcc059fbea61.json",
+					"name" : "dsr_msgs2__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dsr_msgs2__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dsr_msgs2__rosidl_typesupport_introspection_c-2944e1b03ef85188a8ff.json",
+					"name" : "dsr_msgs2__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dsr_msgs2__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dsr_msgs2__rosidl_typesupport_introspection_c__pyext-c2cb3721fccd02ebcd1f.json",
+					"name" : "dsr_msgs2__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dsr_msgs2__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dsr_msgs2__rosidl_typesupport_introspection_cpp-cacafeaf6f45299ed85b.json",
+					"name" : "dsr_msgs2__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dsr_msgs2_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dsr_msgs2_uninstall-1cf57ddc2eb6fc77406c.json",
+					"name" : "dsr_msgs2_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-caf3a6d34892145d537f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/choi/Fitomi_Assist_AI_Cobot/build/dsr_msgs2",
+		"source" : "/home/choi/Fitomi_Assist_AI_Cobot/src/dsr_msgs2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

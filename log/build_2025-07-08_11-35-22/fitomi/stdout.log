@@ -1,0 +1,93 @@
+running egg_info
+creating ../../build/fitomi/fitomi.egg-info
+writing ../../build/fitomi/fitomi.egg-info/PKG-INFO
+writing dependency_links to ../../build/fitomi/fitomi.egg-info/dependency_links.txt
+writing entry points to ../../build/fitomi/fitomi.egg-info/entry_points.txt
+writing requirements to ../../build/fitomi/fitomi.egg-info/requires.txt
+writing top-level names to ../../build/fitomi/fitomi.egg-info/top_level.txt
+writing manifest file '../../build/fitomi/fitomi.egg-info/SOURCES.txt'
+reading manifest file '../../build/fitomi/fitomi.egg-info/SOURCES.txt'
+writing manifest file '../../build/fitomi/fitomi.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/choi/Fitomi_Assist_AI_Cobot/build/fitomi/build
+creating /home/choi/Fitomi_Assist_AI_Cobot/build/fitomi/build/lib
+creating /home/choi/Fitomi_Assist_AI_Cobot/build/fitomi/build/lib/fitomi
+copying fitomi/motion.py -> /home/choi/Fitomi_Assist_AI_Cobot/build/fitomi/build/lib/fitomi
+copying fitomi/dummy_flask.py -> /home/choi/Fitomi_Assist_AI_Cobot/build/fitomi/build/lib/fitomi
+copying fitomi/prompt_manager.py -> /home/choi/Fitomi_Assist_AI_Cobot/build/fitomi/build/lib/fitomi
+copying fitomi/wakeup_word.py -> /home/choi/Fitomi_Assist_AI_Cobot/build/fitomi/build/lib/fitomi
+copying fitomi/llm_query.py -> /home/choi/Fitomi_Assist_AI_Cobot/build/fitomi/build/lib/fitomi
+copying fitomi/context_manager.py -> /home/choi/Fitomi_Assist_AI_Cobot/build/fitomi/build/lib/fitomi
+copying fitomi/task_manager.py -> /home/choi/Fitomi_Assist_AI_Cobot/build/fitomi/build/lib/fitomi
+copying fitomi/onrobot.py -> /home/choi/Fitomi_Assist_AI_Cobot/build/fitomi/build/lib/fitomi
+copying fitomi/config.py -> /home/choi/Fitomi_Assist_AI_Cobot/build/fitomi/build/lib/fitomi
+copying fitomi/__init__.py -> /home/choi/Fitomi_Assist_AI_Cobot/build/fitomi/build/lib/fitomi
+copying fitomi/vad_audio.py -> /home/choi/Fitomi_Assist_AI_Cobot/build/fitomi/build/lib/fitomi
+copying fitomi/dummy_task_manager.py -> /home/choi/Fitomi_Assist_AI_Cobot/build/fitomi/build/lib/fitomi
+copying fitomi/knowledge_utils.py -> /home/choi/Fitomi_Assist_AI_Cobot/build/fitomi/build/lib/fitomi
+copying fitomi/MicController.py -> /home/choi/Fitomi_Assist_AI_Cobot/build/fitomi/build/lib/fitomi
+copying fitomi/tts.py -> /home/choi/Fitomi_Assist_AI_Cobot/build/fitomi/build/lib/fitomi
+creating /home/choi/Fitomi_Assist_AI_Cobot/build/fitomi/build/lib/fitomi/object_detection
+copying fitomi/object_detection/yolov8_obj_det_obb.py -> /home/choi/Fitomi_Assist_AI_Cobot/build/fitomi/build/lib/fitomi/object_detection
+copying fitomi/object_detection/img_display.py -> /home/choi/Fitomi_Assist_AI_Cobot/build/fitomi/build/lib/fitomi/object_detection
+copying fitomi/object_detection/__init__.py -> /home/choi/Fitomi_Assist_AI_Cobot/build/fitomi/build/lib/fitomi/object_detection
+copying fitomi/object_detection/object_detect.py -> /home/choi/Fitomi_Assist_AI_Cobot/build/fitomi/build/lib/fitomi/object_detection
+running install
+running install_lib
+creating /home/choi/Fitomi_Assist_AI_Cobot/install/fitomi/lib/python3.10/site-packages/fitomi
+copying /home/choi/Fitomi_Assist_AI_Cobot/build/fitomi/build/lib/fitomi/motion.py -> /home/choi/Fitomi_Assist_AI_Cobot/install/fitomi/lib/python3.10/site-packages/fitomi
+copying /home/choi/Fitomi_Assist_AI_Cobot/build/fitomi/build/lib/fitomi/dummy_flask.py -> /home/choi/Fitomi_Assist_AI_Cobot/install/fitomi/lib/python3.10/site-packages/fitomi
+copying /home/choi/Fitomi_Assist_AI_Cobot/build/fitomi/build/lib/fitomi/prompt_manager.py -> /home/choi/Fitomi_Assist_AI_Cobot/install/fitomi/lib/python3.10/site-packages/fitomi
+copying /home/choi/Fitomi_Assist_AI_Cobot/build/fitomi/build/lib/fitomi/wakeup_word.py -> /home/choi/Fitomi_Assist_AI_Cobot/install/fitomi/lib/python3.10/site-packages/fitomi
+copying /home/choi/Fitomi_Assist_AI_Cobot/build/fitomi/build/lib/fitomi/llm_query.py -> /home/choi/Fitomi_Assist_AI_Cobot/install/fitomi/lib/python3.10/site-packages/fitomi
+copying /home/choi/Fitomi_Assist_AI_Cobot/build/fitomi/build/lib/fitomi/context_manager.py -> /home/choi/Fitomi_Assist_AI_Cobot/install/fitomi/lib/python3.10/site-packages/fitomi
+copying /home/choi/Fitomi_Assist_AI_Cobot/build/fitomi/build/lib/fitomi/task_manager.py -> /home/choi/Fitomi_Assist_AI_Cobot/install/fitomi/lib/python3.10/site-packages/fitomi
+copying /home/choi/Fitomi_Assist_AI_Cobot/build/fitomi/build/lib/fitomi/onrobot.py -> /home/choi/Fitomi_Assist_AI_Cobot/install/fitomi/lib/python3.10/site-packages/fitomi
+copying /home/choi/Fitomi_Assist_AI_Cobot/build/fitomi/build/lib/fitomi/config.py -> /home/choi/Fitomi_Assist_AI_Cobot/install/fitomi/lib/python3.10/site-packages/fitomi
+copying /home/choi/Fitomi_Assist_AI_Cobot/build/fitomi/build/lib/fitomi/__init__.py -> /home/choi/Fitomi_Assist_AI_Cobot/install/fitomi/lib/python3.10/site-packages/fitomi
+copying /home/choi/Fitomi_Assist_AI_Cobot/build/fitomi/build/lib/fitomi/vad_audio.py -> /home/choi/Fitomi_Assist_AI_Cobot/install/fitomi/lib/python3.10/site-packages/fitomi
+copying /home/choi/Fitomi_Assist_AI_Cobot/build/fitomi/build/lib/fitomi/dummy_task_manager.py -> /home/choi/Fitomi_Assist_AI_Cobot/install/fitomi/lib/python3.10/site-packages/fitomi
+copying /home/choi/Fitomi_Assist_AI_Cobot/build/fitomi/build/lib/fitomi/knowledge_utils.py -> /home/choi/Fitomi_Assist_AI_Cobot/install/fitomi/lib/python3.10/site-packages/fitomi
+copying /home/choi/Fitomi_Assist_AI_Cobot/build/fitomi/build/lib/fitomi/MicController.py -> /home/choi/Fitomi_Assist_AI_Cobot/install/fitomi/lib/python3.10/site-packages/fitomi
+creating /home/choi/Fitomi_Assist_AI_Cobot/install/fitomi/lib/python3.10/site-packages/fitomi/object_detection
+copying /home/choi/Fitomi_Assist_AI_Cobot/build/fitomi/build/lib/fitomi/object_detection/yolov8_obj_det_obb.py -> /home/choi/Fitomi_Assist_AI_Cobot/install/fitomi/lib/python3.10/site-packages/fitomi/object_detection
+copying /home/choi/Fitomi_Assist_AI_Cobot/build/fitomi/build/lib/fitomi/object_detection/img_display.py -> /home/choi/Fitomi_Assist_AI_Cobot/install/fitomi/lib/python3.10/site-packages/fitomi/object_detection
+copying /home/choi/Fitomi_Assist_AI_Cobot/build/fitomi/build/lib/fitomi/object_detection/__init__.py -> /home/choi/Fitomi_Assist_AI_Cobot/install/fitomi/lib/python3.10/site-packages/fitomi/object_detection
+copying /home/choi/Fitomi_Assist_AI_Cobot/build/fitomi/build/lib/fitomi/object_detection/object_detect.py -> /home/choi/Fitomi_Assist_AI_Cobot/install/fitomi/lib/python3.10/site-packages/fitomi/object_detection
+copying /home/choi/Fitomi_Assist_AI_Cobot/build/fitomi/build/lib/fitomi/tts.py -> /home/choi/Fitomi_Assist_AI_Cobot/install/fitomi/lib/python3.10/site-packages/fitomi
+byte-compiling /home/choi/Fitomi_Assist_AI_Cobot/install/fitomi/lib/python3.10/site-packages/fitomi/motion.py to motion.cpython-310.pyc
+byte-compiling /home/choi/Fitomi_Assist_AI_Cobot/install/fitomi/lib/python3.10/site-packages/fitomi/dummy_flask.py to dummy_flask.cpython-310.pyc
+byte-compiling /home/choi/Fitomi_Assist_AI_Cobot/install/fitomi/lib/python3.10/site-packages/fitomi/prompt_manager.py to prompt_manager.cpython-310.pyc
+byte-compiling /home/choi/Fitomi_Assist_AI_Cobot/install/fitomi/lib/python3.10/site-packages/fitomi/wakeup_word.py to wakeup_word.cpython-310.pyc
+byte-compiling /home/choi/Fitomi_Assist_AI_Cobot/install/fitomi/lib/python3.10/site-packages/fitomi/llm_query.py to llm_query.cpython-310.pyc
+byte-compiling /home/choi/Fitomi_Assist_AI_Cobot/install/fitomi/lib/python3.10/site-packages/fitomi/context_manager.py to context_manager.cpython-310.pyc
+byte-compiling /home/choi/Fitomi_Assist_AI_Cobot/install/fitomi/lib/python3.10/site-packages/fitomi/task_manager.py to task_manager.cpython-310.pyc
+byte-compiling /home/choi/Fitomi_Assist_AI_Cobot/install/fitomi/lib/python3.10/site-packages/fitomi/onrobot.py to onrobot.cpython-310.pyc
+byte-compiling /home/choi/Fitomi_Assist_AI_Cobot/install/fitomi/lib/python3.10/site-packages/fitomi/config.py to config.cpython-310.pyc
+byte-compiling /home/choi/Fitomi_Assist_AI_Cobot/install/fitomi/lib/python3.10/site-packages/fitomi/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/choi/Fitomi_Assist_AI_Cobot/install/fitomi/lib/python3.10/site-packages/fitomi/vad_audio.py to vad_audio.cpython-310.pyc
+byte-compiling /home/choi/Fitomi_Assist_AI_Cobot/install/fitomi/lib/python3.10/site-packages/fitomi/dummy_task_manager.py to dummy_task_manager.cpython-310.pyc
+byte-compiling /home/choi/Fitomi_Assist_AI_Cobot/install/fitomi/lib/python3.10/site-packages/fitomi/knowledge_utils.py to knowledge_utils.cpython-310.pyc
+byte-compiling /home/choi/Fitomi_Assist_AI_Cobot/install/fitomi/lib/python3.10/site-packages/fitomi/MicController.py to MicController.cpython-310.pyc
+byte-compiling /home/choi/Fitomi_Assist_AI_Cobot/install/fitomi/lib/python3.10/site-packages/fitomi/object_detection/yolov8_obj_det_obb.py to yolov8_obj_det_obb.cpython-310.pyc
+byte-compiling /home/choi/Fitomi_Assist_AI_Cobot/install/fitomi/lib/python3.10/site-packages/fitomi/object_detection/img_display.py to img_display.cpython-310.pyc
+byte-compiling /home/choi/Fitomi_Assist_AI_Cobot/install/fitomi/lib/python3.10/site-packages/fitomi/object_detection/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/choi/Fitomi_Assist_AI_Cobot/install/fitomi/lib/python3.10/site-packages/fitomi/object_detection/object_detect.py to object_detect.cpython-310.pyc
+byte-compiling /home/choi/Fitomi_Assist_AI_Cobot/install/fitomi/lib/python3.10/site-packages/fitomi/tts.py to tts.cpython-310.pyc
+running install_data
+creating /home/choi/Fitomi_Assist_AI_Cobot/install/fitomi/share/ament_index
+creating /home/choi/Fitomi_Assist_AI_Cobot/install/fitomi/share/ament_index/resource_index
+creating /home/choi/Fitomi_Assist_AI_Cobot/install/fitomi/share/ament_index/resource_index/packages
+copying resource/fitomi -> /home/choi/Fitomi_Assist_AI_Cobot/install/fitomi/share/ament_index/resource_index/packages
+copying package.xml -> /home/choi/Fitomi_Assist_AI_Cobot/install/fitomi/share/fitomi
+running install_egg_info
+Copying ../../build/fitomi/fitomi.egg-info to /home/choi/Fitomi_Assist_AI_Cobot/install/fitomi/lib/python3.10/site-packages/fitomi-0.0.0-py3.10.egg-info
+running install_scripts
+Installing cm script to /home/choi/Fitomi_Assist_AI_Cobot/install/fitomi/lib/fitomi
+Installing dummy_flask script to /home/choi/Fitomi_Assist_AI_Cobot/install/fitomi/lib/fitomi
+Installing img_display script to /home/choi/Fitomi_Assist_AI_Cobot/install/fitomi/lib/fitomi
+Installing motion script to /home/choi/Fitomi_Assist_AI_Cobot/install/fitomi/lib/fitomi
+Installing object_detect script to /home/choi/Fitomi_Assist_AI_Cobot/install/fitomi/lib/fitomi
+Installing tm script to /home/choi/Fitomi_Assist_AI_Cobot/install/fitomi/lib/fitomi
+writing list of installed files to '/home/choi/Fitomi_Assist_AI_Cobot/build/fitomi/install.log'

@@ -1,0 +1,8 @@
+/home/choi/Fitomi_Assist_AI_Cobot/build/custom_interfaces/rosidl_adapter/custom_interfaces:msg/SendImg.idl
+/home/choi/Fitomi_Assist_AI_Cobot/build/custom_interfaces/rosidl_adapter/custom_interfaces:msg/InferenceResult.idl
+/home/choi/Fitomi_Assist_AI_Cobot/build/custom_interfaces/rosidl_adapter/custom_interfaces:msg/Yolov8Inference.idl
+/home/choi/Fitomi_Assist_AI_Cobot/build/custom_interfaces/rosidl_adapter/custom_interfaces:srv/ImgLoad.idl
+/home/choi/Fitomi_Assist_AI_Cobot/build/custom_interfaces/rosidl_adapter/custom_interfaces:srv/LogMessage.idl
+/home/choi/Fitomi_Assist_AI_Cobot/build/custom_interfaces/rosidl_adapter/custom_interfaces:srv/TaskCommand.idl
+/home/choi/Fitomi_Assist_AI_Cobot/build/custom_interfaces/rosidl_adapter/custom_interfaces:srv/SrvDepthPosition.idl
+/home/choi/Fitomi_Assist_AI_Cobot/build/custom_interfaces/rosidl_adapter/custom_interfaces:action/TaskCommand.idl

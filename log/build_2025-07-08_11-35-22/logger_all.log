@@ -1,0 +1,344 @@
+[0.229s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build'][0m
+[0.229s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x71f5d5eb9b40>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x71f5d5f46f80>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x71f5d5f46f80>>, mixin_verb=('build',))[0m
+[0.577s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.577s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.577s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.577s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.577s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.577s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.577s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/choi/Fitomi_Assist_AI_Cobot'
+[0.577s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.578s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.578s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.578s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.578s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.578s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.578s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.578s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.578s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.591s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.591s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.591s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.591s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.591s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.591s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.591s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.591s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.592s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.592s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.592s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.592s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.592s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.592s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.592s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.592s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[0.592s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[0.592s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[0.592s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[0.592s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[0.592s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[0.592s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[0.592s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[0.593s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[0.593s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[0.593s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[0.593s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[0.593s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[0.593s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/custom_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.593s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/custom_interfaces) by extension 'ignore'
+[0.593s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/custom_interfaces) by extension 'ignore_ament_install'
+[0.593s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/custom_interfaces) by extensions ['colcon_pkg']
+[0.593s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/custom_interfaces) by extension 'colcon_pkg'
+[0.593s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/custom_interfaces) by extensions ['colcon_meta']
+[0.593s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/custom_interfaces) by extension 'colcon_meta'
+[0.593s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/custom_interfaces) by extensions ['ros']
+[0.593s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/custom_interfaces) by extension 'ros'
+[0.596s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/custom_interfaces' with type 'ros.ament_cmake' and name 'custom_interfaces'[0m
+[0.596s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dsr_msgs2) by extensions ['ignore', 'ignore_ament_install']
+[0.596s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dsr_msgs2) by extension 'ignore'
+[0.596s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dsr_msgs2) by extension 'ignore_ament_install'
+[0.596s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dsr_msgs2) by extensions ['colcon_pkg']
+[0.596s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dsr_msgs2) by extension 'colcon_pkg'
+[0.596s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dsr_msgs2) by extensions ['colcon_meta']
+[0.596s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dsr_msgs2) by extension 'colcon_meta'
+[0.596s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dsr_msgs2) by extensions ['ros']
+[0.596s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dsr_msgs2) by extension 'ros'
+[0.597s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/dsr_msgs2' with type 'ros.ament_cmake' and name 'dsr_msgs2'[0m
+[0.597s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fitomi) by extensions ['ignore', 'ignore_ament_install']
+[0.597s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fitomi) by extension 'ignore'
+[0.598s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fitomi) by extension 'ignore_ament_install'
+[0.598s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fitomi) by extensions ['colcon_pkg']
+[0.598s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fitomi) by extension 'colcon_pkg'
+[0.598s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fitomi) by extensions ['colcon_meta']
+[0.598s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fitomi) by extension 'colcon_meta'
+[0.598s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fitomi) by extensions ['ros']
+[0.598s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fitomi) by extension 'ros'
+[0.598s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/fitomi' with type 'ros.ament_python' and name 'fitomi'[0m
+[0.599s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fitomi_flask) by extensions ['ignore', 'ignore_ament_install']
+[0.599s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fitomi_flask) by extension 'ignore'
+[0.599s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fitomi_flask) by extension 'ignore_ament_install'
+[0.599s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fitomi_flask) by extensions ['colcon_pkg']
+[0.599s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fitomi_flask) by extension 'colcon_pkg'
+[0.599s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fitomi_flask) by extensions ['colcon_meta']
+[0.599s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fitomi_flask) by extension 'colcon_meta'
+[0.599s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fitomi_flask) by extensions ['ros']
+[0.599s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fitomi_flask) by extension 'ros'
+[0.599s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fitomi_flask) by extensions ['cmake', 'python']
+[0.599s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fitomi_flask) by extension 'cmake'
+[0.599s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fitomi_flask) by extension 'python'
+[0.599s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fitomi_flask) by extensions ['python_setup_py']
+[0.599s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fitomi_flask) by extension 'python_setup_py'
+[0.599s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fitomi_flask/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.599s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fitomi_flask/__pycache__) by extension 'ignore'
+[0.600s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fitomi_flask/__pycache__) by extension 'ignore_ament_install'
+[0.600s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fitomi_flask/__pycache__) by extensions ['colcon_pkg']
+[0.600s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fitomi_flask/__pycache__) by extension 'colcon_pkg'
+[0.600s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fitomi_flask/__pycache__) by extensions ['colcon_meta']
+[0.600s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fitomi_flask/__pycache__) by extension 'colcon_meta'
+[0.600s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fitomi_flask/__pycache__) by extensions ['ros']
+[0.600s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fitomi_flask/__pycache__) by extension 'ros'
+[0.600s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fitomi_flask/__pycache__) by extensions ['cmake', 'python']
+[0.600s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fitomi_flask/__pycache__) by extension 'cmake'
+[0.600s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fitomi_flask/__pycache__) by extension 'python'
+[0.600s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fitomi_flask/__pycache__) by extensions ['python_setup_py']
+[0.600s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fitomi_flask/__pycache__) by extension 'python_setup_py'
+[0.600s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fitomi_flask/static) by extensions ['ignore', 'ignore_ament_install']
+[0.600s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fitomi_flask/static) by extension 'ignore'
+[0.600s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fitomi_flask/static) by extension 'ignore_ament_install'
+[0.600s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fitomi_flask/static) by extensions ['colcon_pkg']
+[0.600s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fitomi_flask/static) by extension 'colcon_pkg'
+[0.601s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fitomi_flask/static) by extensions ['colcon_meta']
+[0.601s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fitomi_flask/static) by extension 'colcon_meta'
+[0.601s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fitomi_flask/static) by extensions ['ros']
+[0.601s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fitomi_flask/static) by extension 'ros'
+[0.601s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fitomi_flask/static) by extensions ['cmake', 'python']
+[0.601s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fitomi_flask/static) by extension 'cmake'
+[0.601s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fitomi_flask/static) by extension 'python'
+[0.601s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fitomi_flask/static) by extensions ['python_setup_py']
+[0.601s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fitomi_flask/static) by extension 'python_setup_py'
+[0.601s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fitomi_flask/templates) by extensions ['ignore', 'ignore_ament_install']
+[0.601s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fitomi_flask/templates) by extension 'ignore'
+[0.601s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fitomi_flask/templates) by extension 'ignore_ament_install'
+[0.601s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fitomi_flask/templates) by extensions ['colcon_pkg']
+[0.601s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fitomi_flask/templates) by extension 'colcon_pkg'
+[0.601s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fitomi_flask/templates) by extensions ['colcon_meta']
+[0.601s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fitomi_flask/templates) by extension 'colcon_meta'
+[0.601s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fitomi_flask/templates) by extensions ['ros']
+[0.602s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fitomi_flask/templates) by extension 'ros'
+[0.602s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fitomi_flask/templates) by extensions ['cmake', 'python']
+[0.602s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fitomi_flask/templates) by extension 'cmake'
+[0.602s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fitomi_flask/templates) by extension 'python'
+[0.602s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fitomi_flask/templates) by extensions ['python_setup_py']
+[0.602s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fitomi_flask/templates) by extension 'python_setup_py'
+[0.602s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/media) by extensions ['ignore', 'ignore_ament_install']
+[0.602s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/media) by extension 'ignore'
+[0.602s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/media) by extension 'ignore_ament_install'
+[0.602s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/media) by extensions ['colcon_pkg']
+[0.602s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/media) by extension 'colcon_pkg'
+[0.602s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/media) by extensions ['colcon_meta']
+[0.602s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/media) by extension 'colcon_meta'
+[0.602s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/media) by extensions ['ros']
+[0.602s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/media) by extension 'ros'
+[0.602s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/media) by extensions ['cmake', 'python']
+[0.602s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/media) by extension 'cmake'
+[0.603s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/media) by extension 'python'
+[0.603s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/media) by extensions ['python_setup_py']
+[0.603s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/media) by extension 'python_setup_py'
+[0.603s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.603s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.603s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.603s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.603s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.624s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[0.624s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[0.630s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 453 installed packages in /opt/ros/humble[0m
+[0.634s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[0.702s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'custom_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.702s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'custom_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.702s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'custom_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.702s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'custom_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.703s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'custom_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.703s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'custom_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.703s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'custom_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.703s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'custom_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.703s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'custom_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.703s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'custom_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/choi/Fitomi_Assist_AI_Cobot/build/custom_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/choi/Fitomi_Assist_AI_Cobot/install/custom_interfaces', 'merge_install': False, 'path': '/home/choi/Fitomi_Assist_AI_Cobot/src/custom_interfaces', 'symlink_install': False, 'test_result_base': None}[0m
+[0.703s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dsr_msgs2' build argument 'cmake_args' from command line to 'None'
+[0.703s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dsr_msgs2' build argument 'cmake_target' from command line to 'None'
+[0.703s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dsr_msgs2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.703s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dsr_msgs2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.703s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dsr_msgs2' build argument 'cmake_clean_first' from command line to 'False'
+[0.703s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dsr_msgs2' build argument 'cmake_force_configure' from command line to 'False'
+[0.704s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dsr_msgs2' build argument 'ament_cmake_args' from command line to 'None'
+[0.704s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dsr_msgs2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.704s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dsr_msgs2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.704s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'dsr_msgs2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/choi/Fitomi_Assist_AI_Cobot/build/dsr_msgs2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/choi/Fitomi_Assist_AI_Cobot/install/dsr_msgs2', 'merge_install': False, 'path': '/home/choi/Fitomi_Assist_AI_Cobot/src/dsr_msgs2', 'symlink_install': False, 'test_result_base': None}[0m
+[0.704s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fitomi' build argument 'cmake_args' from command line to 'None'
+[0.704s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fitomi' build argument 'cmake_target' from command line to 'None'
+[0.704s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fitomi' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.704s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fitomi' build argument 'cmake_clean_cache' from command line to 'False'
+[0.704s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fitomi' build argument 'cmake_clean_first' from command line to 'False'
+[0.704s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fitomi' build argument 'cmake_force_configure' from command line to 'False'
+[0.704s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fitomi' build argument 'ament_cmake_args' from command line to 'None'
+[0.704s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fitomi' build argument 'catkin_cmake_args' from command line to 'None'
+[0.704s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fitomi' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.704s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'fitomi' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/choi/Fitomi_Assist_AI_Cobot/build/fitomi', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/choi/Fitomi_Assist_AI_Cobot/install/fitomi', 'merge_install': False, 'path': '/home/choi/Fitomi_Assist_AI_Cobot/src/fitomi', 'symlink_install': False, 'test_result_base': None}[0m
+[0.705s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.706s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.706s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/choi/Fitomi_Assist_AI_Cobot/src/custom_interfaces' with build type 'ament_cmake'
+[0.706s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/choi/Fitomi_Assist_AI_Cobot/src/custom_interfaces'
+[0.713s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.713s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.713s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.718s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/choi/Fitomi_Assist_AI_Cobot/src/dsr_msgs2' with build type 'ament_cmake'
+[0.718s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/choi/Fitomi_Assist_AI_Cobot/src/dsr_msgs2'
+[0.718s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.718s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.723s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/choi/Fitomi_Assist_AI_Cobot/src/fitomi' with build type 'ament_python'
+[0.724s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('fitomi', 'ament_prefix_path')
+[0.724s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/choi/Fitomi_Assist_AI_Cobot/install/fitomi/share/fitomi/hook/ament_prefix_path.ps1'
+[0.725s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/choi/Fitomi_Assist_AI_Cobot/install/fitomi/share/fitomi/hook/ament_prefix_path.dsv'
+[0.726s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/choi/Fitomi_Assist_AI_Cobot/install/fitomi/share/fitomi/hook/ament_prefix_path.sh'
+[0.727s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.727s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.735s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/choi/Fitomi_Assist_AI_Cobot/build/custom_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/choi/Fitomi_Assist_AI_Cobot/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/choi/Fitomi_Assist_AI_Cobot/install/custom_interfaces[0m
+[0.740s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/choi/Fitomi_Assist_AI_Cobot/build/dsr_msgs2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/choi/Fitomi_Assist_AI_Cobot/src/dsr_msgs2 -DCMAKE_INSTALL_PREFIX=/home/choi/Fitomi_Assist_AI_Cobot/install/dsr_msgs2[0m
+[1.295s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/choi/Fitomi_Assist_AI_Cobot/src/fitomi'
+[1.295s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.295s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[2.069s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/choi/Fitomi_Assist_AI_Cobot/src/fitomi': PYTHONPATH=/home/choi/Fitomi_Assist_AI_Cobot/build/fitomi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/choi/Fitomi_Assist_AI_Cobot/install/fitomi/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fitomi build --build-base /home/choi/Fitomi_Assist_AI_Cobot/build/fitomi/build install --record /home/choi/Fitomi_Assist_AI_Cobot/build/fitomi/install.log --single-version-externally-managed install_data[0m
+[2.679s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/choi/Fitomi_Assist_AI_Cobot/src/fitomi' returned '0': PYTHONPATH=/home/choi/Fitomi_Assist_AI_Cobot/build/fitomi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/choi/Fitomi_Assist_AI_Cobot/install/fitomi/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fitomi build --build-base /home/choi/Fitomi_Assist_AI_Cobot/build/fitomi/build install --record /home/choi/Fitomi_Assist_AI_Cobot/build/fitomi/install.log --single-version-externally-managed install_data[0m
+[2.688s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/choi/Fitomi_Assist_AI_Cobot/install/fitomi' for CMake module files
+[2.689s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/choi/Fitomi_Assist_AI_Cobot/install/fitomi' for CMake config files
+[2.690s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/choi/Fitomi_Assist_AI_Cobot/install/fitomi/lib'
+[2.690s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/choi/Fitomi_Assist_AI_Cobot/install/fitomi/bin'
+[2.691s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/choi/Fitomi_Assist_AI_Cobot/install/fitomi/lib/pkgconfig/fitomi.pc'
+[2.691s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/choi/Fitomi_Assist_AI_Cobot/install/fitomi/lib/python3.10/site-packages'
+[2.691s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('fitomi', 'pythonpath')
+[2.692s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/choi/Fitomi_Assist_AI_Cobot/install/fitomi/share/fitomi/hook/pythonpath.ps1'
+[2.693s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/choi/Fitomi_Assist_AI_Cobot/install/fitomi/share/fitomi/hook/pythonpath.dsv'
+[2.693s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/choi/Fitomi_Assist_AI_Cobot/install/fitomi/share/fitomi/hook/pythonpath.sh'
+[2.694s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/choi/Fitomi_Assist_AI_Cobot/install/fitomi/bin'
+[2.694s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(fitomi)
+[2.695s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/choi/Fitomi_Assist_AI_Cobot/install/fitomi/share/fitomi/package.ps1'
+[2.698s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/choi/Fitomi_Assist_AI_Cobot/install/fitomi/share/fitomi/package.dsv'
+[2.699s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/choi/Fitomi_Assist_AI_Cobot/install/fitomi/share/fitomi/package.sh'
+[2.701s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/choi/Fitomi_Assist_AI_Cobot/install/fitomi/share/fitomi/package.bash'
+[2.703s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/choi/Fitomi_Assist_AI_Cobot/install/fitomi/share/fitomi/package.zsh'
+[2.704s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/choi/Fitomi_Assist_AI_Cobot/install/fitomi/share/colcon-core/packages/fitomi)
+[3.922s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/choi/Fitomi_Assist_AI_Cobot/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/choi/Fitomi_Assist_AI_Cobot/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/choi/Fitomi_Assist_AI_Cobot/install/custom_interfaces[0m
+[3.925s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/choi/Fitomi_Assist_AI_Cobot/build/custom_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/choi/Fitomi_Assist_AI_Cobot/build/custom_interfaces -- -j8 -l8[0m
+[6.603s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/choi/Fitomi_Assist_AI_Cobot/build/dsr_msgs2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/choi/Fitomi_Assist_AI_Cobot/src/dsr_msgs2 -DCMAKE_INSTALL_PREFIX=/home/choi/Fitomi_Assist_AI_Cobot/install/dsr_msgs2[0m
+[6.606s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/choi/Fitomi_Assist_AI_Cobot/build/dsr_msgs2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/choi/Fitomi_Assist_AI_Cobot/build/dsr_msgs2 -- -j8 -l8[0m
+[27.413s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/choi/Fitomi_Assist_AI_Cobot/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/choi/Fitomi_Assist_AI_Cobot/build/custom_interfaces -- -j8 -l8[0m
+[27.427s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/choi/Fitomi_Assist_AI_Cobot/build/custom_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/choi/Fitomi_Assist_AI_Cobot/build/custom_interfaces[0m
+[27.588s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(custom_interfaces)
+[27.589s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/choi/Fitomi_Assist_AI_Cobot/install/custom_interfaces' for CMake module files
+[27.590s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/choi/Fitomi_Assist_AI_Cobot/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/choi/Fitomi_Assist_AI_Cobot/build/custom_interfaces[0m
+[27.590s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/choi/Fitomi_Assist_AI_Cobot/install/custom_interfaces' for CMake config files
+[27.591s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('custom_interfaces', 'cmake_prefix_path')
+[27.592s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/choi/Fitomi_Assist_AI_Cobot/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.ps1'
+[27.592s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/choi/Fitomi_Assist_AI_Cobot/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.dsv'
+[27.593s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/choi/Fitomi_Assist_AI_Cobot/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.sh'
+[27.593s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/choi/Fitomi_Assist_AI_Cobot/install/custom_interfaces/lib'
+[27.594s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('custom_interfaces', 'ld_library_path_lib')
+[27.594s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/choi/Fitomi_Assist_AI_Cobot/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.ps1'
+[27.594s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/choi/Fitomi_Assist_AI_Cobot/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.dsv'
+[27.595s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/choi/Fitomi_Assist_AI_Cobot/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.sh'
+[27.595s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/choi/Fitomi_Assist_AI_Cobot/install/custom_interfaces/bin'
+[27.595s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/choi/Fitomi_Assist_AI_Cobot/install/custom_interfaces/lib/pkgconfig/custom_interfaces.pc'
+[27.596s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/choi/Fitomi_Assist_AI_Cobot/install/custom_interfaces/lib/python3.10/site-packages'
+[27.596s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/choi/Fitomi_Assist_AI_Cobot/install/custom_interfaces/bin'
+[27.596s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/choi/Fitomi_Assist_AI_Cobot/install/custom_interfaces/share/custom_interfaces/package.ps1'
+[27.597s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/choi/Fitomi_Assist_AI_Cobot/install/custom_interfaces/share/custom_interfaces/package.dsv'
+[27.598s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/choi/Fitomi_Assist_AI_Cobot/install/custom_interfaces/share/custom_interfaces/package.sh'
+[27.598s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/choi/Fitomi_Assist_AI_Cobot/install/custom_interfaces/share/custom_interfaces/package.bash'
+[27.599s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/choi/Fitomi_Assist_AI_Cobot/install/custom_interfaces/share/custom_interfaces/package.zsh'
+[27.599s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/choi/Fitomi_Assist_AI_Cobot/install/custom_interfaces/share/colcon-core/packages/custom_interfaces)
+[27.600s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(custom_interfaces)
+[27.600s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/choi/Fitomi_Assist_AI_Cobot/install/custom_interfaces' for CMake module files
+[27.601s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/choi/Fitomi_Assist_AI_Cobot/install/custom_interfaces' for CMake config files
+[27.602s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('custom_interfaces', 'cmake_prefix_path')
+[27.603s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/choi/Fitomi_Assist_AI_Cobot/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.ps1'
+[27.603s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/choi/Fitomi_Assist_AI_Cobot/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.dsv'
+[27.604s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/choi/Fitomi_Assist_AI_Cobot/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.sh'
+[27.604s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/choi/Fitomi_Assist_AI_Cobot/install/custom_interfaces/lib'
+[27.604s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('custom_interfaces', 'ld_library_path_lib')
+[27.605s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/choi/Fitomi_Assist_AI_Cobot/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.ps1'
+[27.605s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/choi/Fitomi_Assist_AI_Cobot/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.dsv'
+[27.606s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/choi/Fitomi_Assist_AI_Cobot/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.sh'
+[27.606s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/choi/Fitomi_Assist_AI_Cobot/install/custom_interfaces/bin'
+[27.606s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/choi/Fitomi_Assist_AI_Cobot/install/custom_interfaces/lib/pkgconfig/custom_interfaces.pc'
+[27.607s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/choi/Fitomi_Assist_AI_Cobot/install/custom_interfaces/lib/python3.10/site-packages'
+[27.607s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/choi/Fitomi_Assist_AI_Cobot/install/custom_interfaces/bin'
+[27.607s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/choi/Fitomi_Assist_AI_Cobot/install/custom_interfaces/share/custom_interfaces/package.ps1'
+[27.608s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/choi/Fitomi_Assist_AI_Cobot/install/custom_interfaces/share/custom_interfaces/package.dsv'
+[27.609s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/choi/Fitomi_Assist_AI_Cobot/install/custom_interfaces/share/custom_interfaces/package.sh'
+[27.609s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/choi/Fitomi_Assist_AI_Cobot/install/custom_interfaces/share/custom_interfaces/package.bash'
+[27.610s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/choi/Fitomi_Assist_AI_Cobot/install/custom_interfaces/share/custom_interfaces/package.zsh'
+[27.611s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/choi/Fitomi_Assist_AI_Cobot/install/custom_interfaces/share/colcon-core/packages/custom_interfaces)
+[234.239s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/choi/Fitomi_Assist_AI_Cobot/build/dsr_msgs2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/choi/Fitomi_Assist_AI_Cobot/build/dsr_msgs2 -- -j8 -l8[0m
+[234.240s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/choi/Fitomi_Assist_AI_Cobot/build/dsr_msgs2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/choi/Fitomi_Assist_AI_Cobot/build/dsr_msgs2[0m
+[235.609s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(dsr_msgs2)
+[235.610s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/choi/Fitomi_Assist_AI_Cobot/install/dsr_msgs2' for CMake module files
+[235.611s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/choi/Fitomi_Assist_AI_Cobot/build/dsr_msgs2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/choi/Fitomi_Assist_AI_Cobot/build/dsr_msgs2[0m
+[235.612s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/choi/Fitomi_Assist_AI_Cobot/install/dsr_msgs2' for CMake config files
+[235.618s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('dsr_msgs2', 'cmake_prefix_path')
+[235.619s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/choi/Fitomi_Assist_AI_Cobot/install/dsr_msgs2/share/dsr_msgs2/hook/cmake_prefix_path.ps1'
+[235.620s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/choi/Fitomi_Assist_AI_Cobot/install/dsr_msgs2/share/dsr_msgs2/hook/cmake_prefix_path.dsv'
+[235.621s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/choi/Fitomi_Assist_AI_Cobot/install/dsr_msgs2/share/dsr_msgs2/hook/cmake_prefix_path.sh'
+[235.621s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/choi/Fitomi_Assist_AI_Cobot/install/dsr_msgs2/lib'
+[235.622s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('dsr_msgs2', 'ld_library_path_lib')
+[235.622s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/choi/Fitomi_Assist_AI_Cobot/install/dsr_msgs2/share/dsr_msgs2/hook/ld_library_path_lib.ps1'
+[235.623s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/choi/Fitomi_Assist_AI_Cobot/install/dsr_msgs2/share/dsr_msgs2/hook/ld_library_path_lib.dsv'
+[235.623s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/choi/Fitomi_Assist_AI_Cobot/install/dsr_msgs2/share/dsr_msgs2/hook/ld_library_path_lib.sh'
+[235.624s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/choi/Fitomi_Assist_AI_Cobot/install/dsr_msgs2/bin'
+[235.624s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/choi/Fitomi_Assist_AI_Cobot/install/dsr_msgs2/lib/pkgconfig/dsr_msgs2.pc'
+[235.624s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/choi/Fitomi_Assist_AI_Cobot/install/dsr_msgs2/lib/python3.10/site-packages'
+[235.624s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/choi/Fitomi_Assist_AI_Cobot/install/dsr_msgs2/bin'
+[235.625s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/choi/Fitomi_Assist_AI_Cobot/install/dsr_msgs2/share/dsr_msgs2/package.ps1'
+[235.626s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/choi/Fitomi_Assist_AI_Cobot/install/dsr_msgs2/share/dsr_msgs2/package.dsv'
+[235.626s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/choi/Fitomi_Assist_AI_Cobot/install/dsr_msgs2/share/dsr_msgs2/package.sh'
+[235.627s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/choi/Fitomi_Assist_AI_Cobot/install/dsr_msgs2/share/dsr_msgs2/package.bash'
+[235.627s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/choi/Fitomi_Assist_AI_Cobot/install/dsr_msgs2/share/dsr_msgs2/package.zsh'
+[235.628s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/choi/Fitomi_Assist_AI_Cobot/install/dsr_msgs2/share/colcon-core/packages/dsr_msgs2)
+[235.629s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(dsr_msgs2)
+[235.629s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/choi/Fitomi_Assist_AI_Cobot/install/dsr_msgs2' for CMake module files
+[235.630s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/choi/Fitomi_Assist_AI_Cobot/install/dsr_msgs2' for CMake config files
+[235.636s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('dsr_msgs2', 'cmake_prefix_path')
+[235.636s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/choi/Fitomi_Assist_AI_Cobot/install/dsr_msgs2/share/dsr_msgs2/hook/cmake_prefix_path.ps1'
+[235.637s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/choi/Fitomi_Assist_AI_Cobot/install/dsr_msgs2/share/dsr_msgs2/hook/cmake_prefix_path.dsv'
+[235.638s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/choi/Fitomi_Assist_AI_Cobot/install/dsr_msgs2/share/dsr_msgs2/hook/cmake_prefix_path.sh'
+[235.638s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/choi/Fitomi_Assist_AI_Cobot/install/dsr_msgs2/lib'
+[235.638s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('dsr_msgs2', 'ld_library_path_lib')
+[235.639s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/choi/Fitomi_Assist_AI_Cobot/install/dsr_msgs2/share/dsr_msgs2/hook/ld_library_path_lib.ps1'
+[235.639s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/choi/Fitomi_Assist_AI_Cobot/install/dsr_msgs2/share/dsr_msgs2/hook/ld_library_path_lib.dsv'
+[235.640s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/choi/Fitomi_Assist_AI_Cobot/install/dsr_msgs2/share/dsr_msgs2/hook/ld_library_path_lib.sh'
+[235.640s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/choi/Fitomi_Assist_AI_Cobot/install/dsr_msgs2/bin'
+[235.640s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/choi/Fitomi_Assist_AI_Cobot/install/dsr_msgs2/lib/pkgconfig/dsr_msgs2.pc'
+[235.641s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/choi/Fitomi_Assist_AI_Cobot/install/dsr_msgs2/lib/python3.10/site-packages'
+[235.641s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/choi/Fitomi_Assist_AI_Cobot/install/dsr_msgs2/bin'
+[235.641s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/choi/Fitomi_Assist_AI_Cobot/install/dsr_msgs2/share/dsr_msgs2/package.ps1'
+[235.642s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/choi/Fitomi_Assist_AI_Cobot/install/dsr_msgs2/share/dsr_msgs2/package.dsv'
+[235.643s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/choi/Fitomi_Assist_AI_Cobot/install/dsr_msgs2/share/dsr_msgs2/package.sh'
+[235.643s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/choi/Fitomi_Assist_AI_Cobot/install/dsr_msgs2/share/dsr_msgs2/package.bash'
+[235.644s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/choi/Fitomi_Assist_AI_Cobot/install/dsr_msgs2/share/dsr_msgs2/package.zsh'
+[235.644s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/choi/Fitomi_Assist_AI_Cobot/install/dsr_msgs2/share/colcon-core/packages/dsr_msgs2)
+[235.645s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[235.645s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[235.646s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[235.646s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[235.654s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[235.654s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[235.654s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[235.668s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[235.669s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/choi/Fitomi_Assist_AI_Cobot/install/local_setup.ps1'
+[235.670s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/choi/Fitomi_Assist_AI_Cobot/install/_local_setup_util_ps1.py'
+[235.674s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/choi/Fitomi_Assist_AI_Cobot/install/setup.ps1'
+[235.675s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/choi/Fitomi_Assist_AI_Cobot/install/local_setup.sh'
+[235.676s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/choi/Fitomi_Assist_AI_Cobot/install/_local_setup_util_sh.py'
+[235.677s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/choi/Fitomi_Assist_AI_Cobot/install/setup.sh'
+[235.678s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/choi/Fitomi_Assist_AI_Cobot/install/local_setup.bash'
+[235.679s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/choi/Fitomi_Assist_AI_Cobot/install/setup.bash'
+[235.680s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/choi/Fitomi_Assist_AI_Cobot/install/local_setup.zsh'
+[235.681s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/choi/Fitomi_Assist_AI_Cobot/install/setup.zsh'

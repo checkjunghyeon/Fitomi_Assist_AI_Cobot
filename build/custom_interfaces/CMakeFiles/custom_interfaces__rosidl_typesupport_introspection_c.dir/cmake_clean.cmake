@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/action/detail/task_command__type_support.c.o"
+  "CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/action/detail/task_command__type_support.c.o.d"
+  "CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/inference_result__type_support.c.o"
+  "CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/inference_result__type_support.c.o.d"
+  "CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/send_img__type_support.c.o"
+  "CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/send_img__type_support.c.o.d"
+  "CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/yolov8_inference__type_support.c.o"
+  "CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/yolov8_inference__type_support.c.o.d"
+  "CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/srv/detail/img_load__type_support.c.o"
+  "CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/srv/detail/img_load__type_support.c.o.d"
+  "CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/srv/detail/log_message__type_support.c.o"
+  "CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/srv/detail/log_message__type_support.c.o.d"
+  "CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/srv/detail/srv_depth_position__type_support.c.o"
+  "CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/srv/detail/srv_depth_position__type_support.c.o.d"
+  "CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/srv/detail/task_command__type_support.c.o"
+  "CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/srv/detail/task_command__type_support.c.o.d"
+  "libcustom_interfaces__rosidl_typesupport_introspection_c.pdb"
+  "libcustom_interfaces__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/custom_interfaces/action/detail/task_command__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/custom_interfaces/action/detail/task_command__type_support.c"
+  "rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/inference_result__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/inference_result__type_support.c"
+  "rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/send_img__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/send_img__type_support.c"
+  "rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/yolov8_inference__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/yolov8_inference__type_support.c"
+  "rosidl_typesupport_introspection_c/custom_interfaces/srv/detail/img_load__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/custom_interfaces/srv/detail/img_load__type_support.c"
+  "rosidl_typesupport_introspection_c/custom_interfaces/srv/detail/log_message__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/custom_interfaces/srv/detail/log_message__type_support.c"
+  "rosidl_typesupport_introspection_c/custom_interfaces/srv/detail/srv_depth_position__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/custom_interfaces/srv/detail/srv_depth_position__type_support.c"
+  "rosidl_typesupport_introspection_c/custom_interfaces/srv/detail/task_command__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/custom_interfaces/srv/detail/task_command__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from custom_interfaces/srv/TaskCommand.srv
+// generated code does not contain a copyright notice
+
+
+module custom_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "Request")
+    struct TaskCommand_Request {
+      sequence<string> request;
+    };
+    @verbatim (language="comment", text=
+      "Response")
+    struct TaskCommand_Response {
+      boolean answer;
+
+      sequence<string> message;
+    };
+  };
+};

@@ -1,0 +1,13 @@
+{
+  "package_name": "custom_interfaces",
+  "non_idl_tuples": [
+    "/home/choi/Fitomi_Assist_AI_Cobot/src/custom_interfaces:msg/SendImg.msg",
+    "/home/choi/Fitomi_Assist_AI_Cobot/src/custom_interfaces:msg/InferenceResult.msg",
+    "/home/choi/Fitomi_Assist_AI_Cobot/src/custom_interfaces:msg/Yolov8Inference.msg",
+    "/home/choi/Fitomi_Assist_AI_Cobot/src/custom_interfaces:srv/ImgLoad.srv",
+    "/home/choi/Fitomi_Assist_AI_Cobot/src/custom_interfaces:srv/LogMessage.srv",
+    "/home/choi/Fitomi_Assist_AI_Cobot/src/custom_interfaces:srv/TaskCommand.srv",
+    "/home/choi/Fitomi_Assist_AI_Cobot/src/custom_interfaces:srv/SrvDepthPosition.srv",
+    "/home/choi/Fitomi_Assist_AI_Cobot/src/custom_interfaces:action/TaskCommand.action"
+  ]
+}

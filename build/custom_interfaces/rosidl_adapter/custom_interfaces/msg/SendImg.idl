@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from custom_interfaces/msg/SendImg.msg
+// generated code does not contain a copyright notice
+
+#include "sensor_msgs/msg/Image.idl"
+
+module custom_interfaces {
+  module msg {
+    struct SendImg {
+      sensor_msgs::msg::Image img;
+    };
+  };
+};

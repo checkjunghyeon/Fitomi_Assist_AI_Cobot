@@ -1,0 +1,39 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from custom_interfaces/action/TaskCommand.action
+// generated code does not contain a copyright notice
+
+
+module custom_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "Goal")
+    struct TaskCommand_Goal {
+      @verbatim (language="comment", text=
+        "냉장고 or 옷장")
+      string keyword_type;
+
+      @verbatim (language="comment", text=
+        "ex) [],, ['반팔', '반바지'], ...")
+      @unit (value="'사과'")
+      sequence<string> keyword;
+    };
+    @verbatim (language="comment", text=
+      "Result")
+    struct TaskCommand_Result {
+      @verbatim (language="comment", text=
+        "0: fail, 1: success")
+      boolean success;
+
+      @verbatim (language="comment", text=
+        "ex) 냉장고 스캔된 항목")
+      sequence<string> scan_list;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct TaskCommand_Feedback {
+      @verbatim (language="comment", text=
+        "동작에 대한 설명")
+      string message;
+    };
+  };
+};

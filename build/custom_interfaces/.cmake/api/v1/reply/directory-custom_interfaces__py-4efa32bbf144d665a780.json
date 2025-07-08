@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "custom_interfaces__py",
+		"source" : "/home/choi/Fitomi_Assist_AI_Cobot/build/custom_interfaces/custom_interfaces__py"
+	}
+}
