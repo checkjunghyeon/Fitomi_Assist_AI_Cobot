@@ -21,10 +21,16 @@
 ## 🔧 주요 기능
 
 - 🥗 냉장고 내 식재료 인식 → 부족한 영양소 분석 및 식단 추천
+
+![fridge](./media/fridge.gif)
 - 👕 옷장 스캔 및 의류 감지 → 날씨/상황 기반 옷 추천
+
+![closet](./media/closet.gif)
 - 🤖 Doosan M0609 협동로봇을 통한 물건 전달
 - 🎙️ STT/TTS 기반 사용자 인터페이스
 - 🌐 Flask 기반 웹 UI 제공
+
+![gui](./media/gui.gif)
 
 <br>
 
